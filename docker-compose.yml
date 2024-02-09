@@ -1,0 +1,10 @@
+version: '3.4'
+
+services:
+  nlwexpertjava:
+    image: nlwexpertjava
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 5434:5434
